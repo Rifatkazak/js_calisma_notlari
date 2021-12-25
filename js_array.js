@@ -1,3 +1,43 @@
+
+
+// .includes()
+// Includes metodu bir elemanın dizi içerisinde bulunup bulunmadığını kontrol eder. Boolean (true/false) olarak çıktı alınır.
+// true or false dödürür..
+
+
+{/* .sort()
+Bu metot, dizi içerisindeki elemanları sıralamaya yarar.
+Orijinal dizi sıralanmış şekilde döner. (Yani dizi mutate eder.)
+Eğer parametre olarak bir fonksiyon verilmezse dizi elemanları string'e çevrilir ve UTF-16 değerlerine göre sıralanır.
+Artan veya azalan olarak sıralamak için farklı bir yol izlenmelidir.
+const sayilar = [3,5,2,10,4];
+
+sayilar.sort(function(a,b) {
+    return b-a;
+});
+console.log(sayilar);
+// Çıktı olarak [10, 5, 4, 3, 2] alırız.
+ */}
+
+{/* .reduce()
+Bu metot dizimizi yalnızca bir değere indirger.
+Parantez içerisine parametre olarak bir fonksiyon ve accumulator'ün (toplayıcının) başlangıç değeri girilir.
+Bu metot orijinal diziyi değiştirmez. (Mutate etmez.)
+Tam olarak ne yaptığını anlamak için örnekleri inceleyelim.
+
+const sayilar = [10,20,30];
+
+// Dizi içindeki sayıları toplayarak indirgeyecek bir fonksiyon yazalım:
+function indirgeyici (akumulator, sayi) {
+    return akumulator + sayi;
+}
+
+// Bu fonksiyonu ve toplamaya 0'dan başlayacağımızı belirten 0 sayısını metodumuza parametre olarak girelim ve sonucu bir değişkende tutalım:
+const sonuc1 = sayilar.reduce(indirgeyici,0);
+
+console.log(sonuc1);
+//0 + 10 + 20 + 30 = 60 olacağından çıktı olarak 60 bekleriz.*/}
+
 let items = [1,2,3,4,5]
 
 // array içinde array
